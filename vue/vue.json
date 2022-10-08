@@ -1,0 +1,21 @@
+{
+  "Create a SFC template": {
+    "prefix": "SFC",
+    "body": [
+      "<script setup lang='ts'></script>",
+      "<template></template>",
+      "<style lang='scss' scoped></style>"
+    ]
+  },
+
+  "Create Comments for a component": {
+    "prefix": "@@",
+    "body": [
+      "<!--",
+      " * @Description: $1",
+      " * @Date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      " * @LastEditDate: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      " -->"
+    ]
+  }
+}

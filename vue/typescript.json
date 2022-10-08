@@ -1,0 +1,20 @@
+{
+  "The interface of vue DefineEvent": {
+    "prefix": "v-emits",
+    "body": [
+      "interface $1Events {",
+      "(e:'$2'):void",
+      "}",
+      "const emits = defineEmits<$1Events>();"
+    ]
+  },
+  "The interface of vue DefineProps": {
+    "prefix": "v-props",
+    "body": [
+      "interface $1Props {",
+      "$2",
+      "}",
+      "const props = defineProps<$1Props>();"
+    ]
+  }
+}
